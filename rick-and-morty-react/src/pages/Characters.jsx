@@ -26,10 +26,10 @@ function Characters() {
     return (
         <>
         <div className="characters-container">
-            <h1 className="characters-h1">This is the characters page.</h1> <br />
+            <h1 className="characters-h1">Click the button below to get a random Character.</h1> <br />
             
             <form onSubmit={getCharacter}>
-                <button type='submit'>SEARCH</button>
+                <button className='character-button' type='submit'>SEARCH</button>
             </form> 
             <img src={character}></img>
         </div>

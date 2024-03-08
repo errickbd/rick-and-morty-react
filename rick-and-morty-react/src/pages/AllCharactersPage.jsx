@@ -12,7 +12,7 @@ const AllCharactersPage = () => {
         const charactersArray = response.data.results
         setCharacters(charactersArray)
         // charactersArray.map((characters, index) => {
-            
+        
         // })
        
     }
@@ -27,13 +27,14 @@ const AllCharactersPage = () => {
     return (
         <>
             <h2>List of Characters:</h2>
-            {/* {charactersArray.map((characters, index) => {
-            
-            })} */}
             <ul>
-                <li>
-                    
-                </li>
+                {characters.map(character => (
+                    <li key={character.id} value={character.name}>
+                        {character.name} <br />
+                        {character.gender} <br />
+                        {character.species} <br />
+                    </li>
+                ))}
             </ul>
 
         </>

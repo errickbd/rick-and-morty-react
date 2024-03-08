@@ -22,8 +22,13 @@ body{
 }
 
 .characters-container{
-  display: flex;
+  display:flex;
+  flex-direction: column;
   height: 100vh;
   justify-content: center;
   align-items: center;
+}
+
+.character-button{
+  margin-bottom: 30px;
 }

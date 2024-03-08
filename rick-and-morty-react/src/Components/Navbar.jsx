@@ -53,6 +53,11 @@ function Navbar() {
                     </li>
                     <li className='nav-item'>
                         <Link to='/characters' className='nav-links' onClick={closeMobileMenu}>
+                            Randomizer
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/allcharacters' className='nav-links' onClick={closeMobileMenu}>
                             Characters
                         </Link>
                     </li>

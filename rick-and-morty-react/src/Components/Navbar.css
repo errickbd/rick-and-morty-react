@@ -29,9 +29,13 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    position:relative;
+    bottom:5px;
   }
   .logo{
     margin-right: 20px;
+    position:relative;
+    bottom:5px;
   }
   
   .fa-typo3 {
@@ -105,7 +109,7 @@
       height: 100%;
       align-items:flex-end;
       position: relative;
-      bottom: 35px;
+      bottom: 20px;
       
     }
 
